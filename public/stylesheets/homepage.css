@@ -214,4 +214,22 @@ html , body{
     background-image: url("https://media.giphy.com/media/3owyp5d4fkmQwVdevu/giphy.gif");
     background-position: center;
     background-size: cover;
+    animation:animatebg 10s infinite;
+}
+@keyframes animatebg{
+    0%{
+        background-image:url("https://media.giphy.com/media/3owyp5d4fkmQwVdevu/giphy.gif");
+    }
+    25%{
+        background-image: url("https://media.giphy.com/media/3owyp5d4fkmQwVdevu/giphy.gif");
+    }
+    50%{
+        background-image:url("https://media.giphy.com/media/16EGvoP6259ss/giphy.gif");
+    }
+    75%{
+        background-image:url("https://media.giphy.com/media/KMhwWpY92JLBS/giphy.gif");
+    }
+    100%{
+        background-image: url("https://media.giphy.com/media/3owyp5d4fkmQwVdevu/giphy.gif");
+    }
 }
