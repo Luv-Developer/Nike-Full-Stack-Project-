@@ -506,3 +506,13 @@ html , body{
 #logo i{
     color:gray;
 }
+#register{
+    text-decoration: none;
+    color:black;
+    transition: 0.1s;
+}
+#register:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:gray;
+}
