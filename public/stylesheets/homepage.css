@@ -496,7 +496,7 @@ html , body{
     align-items: center;
     gap:5px;
     color:gray;
-    margin-left: 190px;
+    margin-left: 150px;
     transition:0.1s;
 }
 #logo:hover{
