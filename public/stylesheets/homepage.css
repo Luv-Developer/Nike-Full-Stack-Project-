@@ -392,3 +392,36 @@ html , body{
     font-size:20px;
     font-weight: 600;
 }
+#box5{
+    margin-left: 90px;
+    margin-top: 30px;
+    width:85%;
+    height:450px;
+    border:2px solid black;
+    padding:20px 150px;
+    display: flex;
+    gap:100px;
+}
+#f1{
+    width:150px;
+    height:400px;
+    border:2px solid black;
+}
+#f1 h3{
+    font-weight:500;
+}
+#f1 h5{
+    font-size:14px;
+    margin-top: 20px;
+    color:rgb(118, 117, 117);
+    transition:0.1s;
+}
+#f1 h5:hover{
+    transition:0.1s;
+    color:black;
+    cursor: pointer;
+}
+#list1{
+    margin-top: 30px;
+    border:2px 
+}
