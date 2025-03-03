@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel = "stylesheet" type = "text/css" href = "/stylesheets/register.css">
 </head>
 <body>
     <form action = "/register" method = "post">
-        <h1>Register</h1>
-        <input type = "text" placeholder="username" minlength="5" maxlength="15" name = "username">
-        <br>
-        <input type = "email" placeholder="email" minlength="12" maxlength="25" name = "email">
-        <br>
-        <input type = "password" placeholder="password" name = "password">
-        <br><br>
-        <button>Register</button>
+        <div id = "container">
+        <div id = "logo">
+            <img src = "https://logos-world.net/wp-content/uploads/2020/04/Nike-Logo-1971-present.jpg">
+            <img src = "https://cms.qz.com/wp-content/uploads/2015/03/brand_jordan_logo_black_original-cropped.jpg?quality=75&strip=all&w=1400">
+        </div>
+        <h1>Enter your email to join us or sign in.</h1>
+        <div id = "display">
+        <p>India</p>
+        <a href = "#">Change</a>
+        </div>
+        <div id = "input">
+            <input id = "email" type = "email" placeholder="Email*" name = "email" required>
+        </div>
+        <div id = "line">
+        <label id = "agree">By continuing, I agree to Nike's <label id = "privacy">Privacy Policy</label> and <label id = "terms">Terms of Use.</label></label>
+        </label><br>
+        <button>Continue</button>
+        </div>
     </form>
 </body>
 </html>
