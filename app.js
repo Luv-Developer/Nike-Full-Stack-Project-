@@ -40,6 +40,12 @@ app.post("/register",async(req,res)=>{
         }
     }
 })
+app.get("/password",(req,res)=>{
+    res.render("password")
+})
+app.post("/password",async(req,res)=>{
+    
+})
 app.listen(PORT,()=>{
     console.log(`Server is listening at ${PORT}`)
 })
