@@ -1,0 +1,863 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    width:100%;
+    height:200%;
+    background-color:white;
+}
+#navbar{
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+#navbar img{
+    margin-left: 50px;
+    width:40px;
+    height:25px;
+    transition:0.1s;
+}
+#navbar img:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#n2{
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    transition:0.1s;
+}
+#n2 h5{
+    transition:0.1s;
+}
+#n2 h5:hover{
+    color:rgb(69, 69, 69);
+    transition:0.1s;
+    cursor: pointer;
+}
+#navbar2{
+    padding:10px 10px;
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#navbar2 img{
+    margin-left: 40px;
+    margin-top: 10px;
+    width:60px;
+    height:35px;
+    transition:0.1s;
+}
+#navbar2 img:hover{
+    transition:0.1s;
+    cursor: pointer;
+
+}
+#center{
+    display: flex;
+    gap:30px;
+    margin-left:230px;
+    font-size:14px;
+}
+#center h3{
+    transition:0.1s;
+}
+#center h3:hover{
+    transition:0.1s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#inputs{
+    margin-left: 50px;
+    width:205px;
+    height:30px;
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+#inputs i{
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size:20px;
+    padding:0px 5px;
+}
+#inputs input{
+    height:30px;
+    width:190px;
+    border:none;
+    outline: none;
+    background-color: rgb(236, 235, 235);
+    border-radius: 20px;
+    padding:10px 10px;
+    transition:0.1s;
+}
+#inputs input:hover{
+    transition:0.1s;
+    background-color: rgb(230, 227, 227);
+}
+#inputs input::placeholder{
+    color:gray;
+    font-size: 16px;
+}
+#search{
+    width:100px;
+    height:30px;
+    border:2px solid black;
+    border-radius: 50px;
+    border:transparent;
+    transition:0.1s;
+}
+#search:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(201, 200, 200);
+}
+#heart{
+    width:30px;
+    height:30px;
+    border-radius: 100px;
+    transition:0.1s;
+    margin-left: 10px;
+}
+#heart:hover{
+    transition:0.1s;
+    background-color: rgb(220, 218, 218);
+    cursor: pointer;
+}
+#heart i{
+    font-size:22px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+#bag{
+    width:30px;
+    height:30px;
+    border-radius: 100px;
+    transition:0.1s;
+    margin-left: -10px;
+}
+#bag:hover{
+    transition:0.1s;
+    background-color: rgb(220, 218, 218);
+    cursor: pointer;
+}
+#bag i{
+    font-size:22px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+#navbar3{
+    background-color: rgb(240, 238, 238);
+    width:100%;
+    height:75px;
+    text-align: center;
+    padding:10px 0px;
+    line-height: 19px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+#content label{
+    font-size:18px;
+}
+#content h5{
+    margin-top: 5px;
+    transition:0.1s;
+}
+#content h5{
+    transition:0.1s;
+    cursor: pointer;
+}
+#content p{
+    font-size:13px;
+}
+
+#photo{
+    padding:30px 30px;
+    height:300px;
+}
+#photo img{
+    margin-top: 40px;
+    width:200px;
+    height:100px;
+    margin-left: 500px;
+}
+#info2{
+    margin-left: 370px;
+    margin-top: 40px;
+    width:550px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+#info2 h3{
+    font-size:15px;
+    transition:0.1s;
+}
+#info2 h3:hover{
+    transition:0.1s;
+    color:rgb(96, 96, 96);
+    cursor: pointer;
+}
+#banner2{
+    margin-top: 20px;
+    width:85%;
+    height:402px;
+    margin-left: 90px;
+    text-align: center;
+    transition:0.1s;
+}
+#banner2:hover{
+    transition: 0.1s;
+    cursor: pointer;
+}
+#banner2 h5{
+    margin-top: 40px;
+    font-size:19px;
+}
+#banner2 h1{
+    font-size:55px;
+    font-weight: 900;
+    letter-spacing: -0.1em;
+}
+#banner2 button{
+    margin-top: 20px;
+    width:75px;
+    height:35px;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: transparent;
+    transition:0.1s;
+}
+#banner2 button:hover{
+    transition:0.1s;
+    background-color: gray;
+    cursor: pointer;
+}
+#banner{
+    border:1px solid black;
+    width:100%;
+    height:400px;
+    background-image: url("https://media.giphy.com/media/HmD5CaOUhVnws/giphy.gif");
+    background-position: center;
+    background-size: cover;
+    animation:animatebg 15s infinite;
+}
+@keyframes animatebg{
+    0%{
+        background-image:url("https://media.giphy.com/media/HmD5CaOUhVnws/giphy.gif");
+    }
+    25%{
+        background-image: url("https://media.giphy.com/media/ViIN7dqY3H1M4/giphy.gif");
+    }
+    50%{
+        background-image:url("https://bestanimations.com/Sports/Basketball/epic-basketball-dunk-animated-gif-6.gif");
+    }
+    75%{
+        background-image:url("https://media.giphy.com/media/3oEdv2qNBprY4gDxMk/giphy.gif");
+    }
+    100%{
+        background-image: url("https://media.giphy.com/media/HmD5CaOUhVnws/giphy.gif");
+    }
+}
+#banner3{
+    margin-top: 60px;
+    width:85%;
+    height:650px;
+    margin-left: 90px;
+    text-align: center;
+    transition:0.1s;
+}
+#banner3:hover{
+    transition: 0.1s;
+    cursor: pointer;
+}
+#banner3 h1{
+    margin-top: 10px;
+    font-size:55px;
+    font-weight: 900;
+    letter-spacing: -0.1em;
+}
+#banner3 button{
+    margin-top: 20px;
+    width:110px;
+    height:35px;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    border-radius: 20px;
+    border: transparent;
+    transition:0.1s;
+}
+#banner3 button:hover{
+    transition:0.1s;
+    background-color: gray;
+    cursor: pointer;
+}
+#banner4{
+    border:1px solid black;
+    width:100%;
+    height:400px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_1920,c_limit/3c71119d-e2fb-4038-babb-2978ae682880/the-nike-vomero-18-offers-nike-s-most-cushioned-run-yet.png");
+    background-position: center;
+    background-size: cover;
+}
+#banner5{
+    margin-top: 20px;
+    width:85%;
+    height:580px;
+    margin-left: 90px;
+    transition:0.1s;
+}
+#banner5 h3{
+    font-size:25px;
+    font-weight: 600;
+}
+#box{
+    margin-top: 30px;
+    width:100%;
+    height:500px;
+    display: flex;
+    gap:10px;
+}
+#img1{
+    width:350px;
+    height:100%;
+}
+#im1{
+    width:350px;
+    height:90%;
+    background-image: url("https://i.pinimg.com/736x/a2/c4/55/a2c45554e797ed89e3b36e8ddf7d5adc.jpg");
+    background-size: cover;
+    background-position: center;
+    transition:0.1s;
+}
+#img1:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#img2{
+    width:350px;
+    height:100%;
+}
+#im2{
+    width:350px;
+    height:90%;
+    background-image: url("https://www.asphaltgold.com/cdn/shop/files/581aa54f433cfa5539324672a076b19ac4b9f337_FQ8762_100_Nike_Field_General__82_White_Varsity_Red_Black_SM_1_768x768_crop_center.jpg?v=1713795723");
+    background-size: cover;
+    background-position: center;
+    transition:0.1s;
+}
+#im2:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#img3{
+    width:350px;
+    height:100%;
+}
+#im3{
+    width:350px;
+    height:90%;
+    background-image: url("https://i8.amplience.net/i/jpl/jd_599748_a?qlt=92");
+    background-size: cover;
+    background-position: center;
+    transition:0.1s;
+}
+#im3:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#img1 h4{
+    margin-top: 30px;
+    font-size:20px;
+    font-weight: 600;
+}
+#img2 h4{
+    margin-top: 30px;
+    font-size:20px;
+    font-weight: 600;
+}
+#img3 h4{
+    margin-top: 30px;
+    font-size:20px;
+    font-weight: 600;
+}
+#box5{
+    margin-left: 40px;
+    margin-top: 50px;
+    width:85%;
+    height:450px;
+    padding:20px 150px;
+    display: flex;
+    gap:100px;
+    border-bottom: 1px solid  rgb(167, 166, 166);
+}
+#f1{
+    width:150px;
+    height:400px;
+}
+#f1 h3{
+    font-weight:500;
+}
+#f1 h5{
+    font-size:15px;
+    margin-top: 20px;
+    color:rgb(118, 117, 117);
+    transition:0.1s;
+}
+#f1 h5:hover{
+    transition:0.1s;
+    color:black;
+    cursor: pointer;
+}
+#list1{
+    margin-top: 30px;
+}
+#box6{
+    margin-left: 30px;
+    margin-top: 40px;
+    width:95%;
+    height:450px;
+    padding:20px 30px;
+    display: flex;
+    gap:40px;
+}
+#b1{
+    width:200px;
+    height:300px;
+    font-size:15px;
+}
+#b2{
+    margin-top: 30px;
+    font-size: 22px;
+    color:gray;
+    transition:0.1s;
+}
+#b2:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#b2 h6{
+    margin-top: 20px;
+    transition:0.1s;
+}
+#b2 h6:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#b3{
+    width:250px;
+    height:350px;
+    font-size:15px;
+}
+#b4{
+    margin-top: 30px;
+    font-size:22px;
+    color:grey;
+    transition:0.1s;
+}
+#b4:hover{
+    transition:0.1s;
+}
+#b4 h6{
+    margin-top: 20px;
+    transition:0.1s;
+    cursor: pointer;
+}
+#b5{
+    width:250px;
+    height:350px;
+    font-size:15px;
+}
+#b6{
+    margin-top: 30px;
+    font-size:22px;
+    color:grey;
+}
+#b6 h6{
+    margin-top: 20px;
+    transition:0.1s;
+    cursor: pointer;
+}
+#logo{
+    height:20px;
+    width:60px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+    color:gray;
+    margin-left: 150px;
+    transition:0.1s;
+}
+#logo:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#logo i{
+    color:gray;
+}
+#register{
+    text-decoration: none;
+    color:black;
+    transition: 0.1s;
+}
+#register:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:gray;
+}
+#shop{
+    margin-top: 10px;
+    text-decoration: underline;
+    font-weight: 500;
+    transition:0.1s;
+}
+#shop:hover{
+    transition: 0.1s;
+    cursor: pointer;
+}
+#addition{
+    width:100%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    gap:310px;
+}
+#addition h2{
+    margin-left: 90px;
+    font-weight: 400;
+}
+#addition a{
+    text-decoration: none;
+    color:black;
+    font-weight:500;
+    font-size:16px;
+    transition: 0.1s;
+}
+#addition a:hover{
+    transition:0.1s;
+    color:grey;
+}
+#member{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-weight: 400;
+}
+#photos{
+    margin-top: 20px;
+    width:100%;
+    height:450px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#box1{
+    padding:20px 50px;
+    width:350px;
+    height:100%;
+    margin-left: 100px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_599,c_limit/292e33ac-2320-4e7e-bbc4-6f596e266ab2/nike-member-benefits-sport-and-wellness-apps.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#box2{
+    padding:20px 50px;
+    width:350px;
+    height:100%;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/cdfa87e8-3509-47a9-b7bc-2a51a2d02a7a/nike-member-benefits-sport-and-wellness-apps.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#box3{
+    padding:20px 50px;
+    width:350px;
+    height:100%;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_750,c_limit/39412611-0af5-4770-8c2e-ef5c23bc6a3d/nike-member-benefits-member-exclusive-product.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#box1 h3{
+    margin-top: 270px;
+    color:white;
+    font-size:17px;
+}
+#box1 h1{
+    margin-top: 13px;
+    font-size:22px;
+    color:white;
+}
+#box1 button{
+    width:75px;
+    height:40px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 20px;
+    font-size:17px;
+    transition:0.1s;
+}
+#box1 button:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(206, 206, 206);
+}
+#box2 h3{
+    margin-top: 250px;
+    color:white;
+    font-size:17px;
+}
+#box2 h1{
+    margin-top: 13px;
+    font-size:22px;
+    color:white;
+}
+#box2 button{
+    width:110px;
+    height:40px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 20px;
+    font-size:17px;
+    transition:0.1s;
+}
+#box2 button:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(206, 206, 206);
+}
+#box3 h3{
+    margin-top: 280px;
+    color:white;
+    font-size:17px;
+}
+#box3 h1{
+    margin-top: 13px;
+    font-size:22px;
+    color:white;
+}
+#box3 button{
+    width:110px;
+    height:40px;
+    border-radius: 20px;
+    border: transparent;
+    margin-top: 20px;
+    font-size:17px;
+    transition:0.1s;
+}
+#box3 button:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(206, 206, 206);
+}
+#member2{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+#rectangle{
+    margin-top: 10px;
+    width:100%;
+    height:250px;
+    padding:0px 40px;
+    display: flex;
+    align-items: center;
+    gap:200px;
+}
+#big1{
+    margin-left: 150px;
+    width:350px;
+    height:100%;
+    padding:0px 10px;
+    text-align: center;
+}
+#big1 img{
+    margin-left: -160px;
+    height:80px;
+    width:650px;
+}
+#hehe{
+    margin-top: 15px;
+    font-size:20px;
+    font-weight: 600;
+}
+#hehe2{
+    margin-top: 15px;
+    font-size:20px;
+    font-weight: 400;
+}
+#big2{
+    width:350px;
+    height:100%;
+    padding:0px 10px;
+    text-align: center;
+}
+#big2 img{
+    margin-left: -160px;
+    height:80px;
+    width:650px;
+}
+#line{
+    margin-top: 20px;
+    width:100%;
+    height:30px;
+    background-image: url("https://static.nike.com/a/images/f_auto/dpr_1.5,cs_srgb/w_1265,c_limit/9946effb-0dfe-41c6-8b53-c4575250cd30/nike-membership.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#connect{
+    margin-top: 90px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+#connection{
+    margin-top: 10px;
+    width:100%;
+    height:550px;
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#first1{
+    text-align: center;
+    width:350px;
+    height:100%;
+    margin-left: 40px;
+}
+#first1 img{
+    margin-top: 100px;
+    height:60px;
+    width:60px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    transition:0.1s;
+}
+#first1 img:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#first1 h2{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 23px;
+}
+#yo{
+    margin-top: 30px;
+    margin-left: 135px;
+    width:65px;
+    height:23px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    transition:0.1s;
+}
+#yo:hover{
+    transition:0.1s;
+    cursor: pointer;
+    border-bottom: 3px solid gray;
+}
+#second1{
+    text-align: center;
+    width:350px;
+    height:100%;
+    margin-left: 40px;
+    padding:0px 50px;
+}
+#second1 img{
+    margin-top: 100px;
+    height:60px;
+    width:60px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    transition:0.1s;
+}
+#second1 img:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#second1 h2{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 23px;
+}
+#second1 h3{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 17px;
+}
+#yo2{
+    margin-top: 30px;
+    margin-left: 95px;
+    width:65px;
+    height:23px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    transition:0.1s;
+}
+#yo2:hover{
+    transition:0.1s;
+    cursor: pointer;
+    border-bottom: 3px solid gray;
+}
+#keep{
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 17px;
+}
+#third1{
+    text-align: center;
+    width:350px;
+    height:100%;
+    margin-left: 40px;
+    padding:0px 50px;
+}
+#third1 img{
+    margin-top: 100px;
+    height:60px;
+    width:60px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    transition:0.1s;
+}
+#third1 h3{
+    margin-top: 15px;
+    font-weight: 400;
+}
+#nike{
+    margin-bottom: 20px;
+}
+#third1 img:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#third1 h2{
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 23px;
+}
+#yo3{
+    margin-top: 30px;
+    margin-left: 95px;
+    width:65px;
+    height:23px;
+    border-bottom: 3px solid black;
+    font-weight: bold;
+    transition:0.1s;
+}
+#yo3:hover{
+    transition:0.1s;
+    cursor: pointer;
+    border-bottom: 3px solid gray;
+}

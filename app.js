@@ -46,6 +46,12 @@ app.get("/password",(req,res)=>{
 app.post("/password",async(req,res)=>{
     
 })
+app.get("/join",(req,res)=>{
+    res.render("join")
+})
+app.post("/join",(req,res)=>{
+        
+})
 app.listen(PORT,()=>{
     console.log(`Server is listening at ${PORT}`)
 })
