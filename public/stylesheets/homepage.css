@@ -516,3 +516,13 @@ html , body{
     cursor: pointer;
     color:gray;
 }
+#join{
+    text-decoration: none;
+    color:black;
+    transition:0.1s;
+}
+#join:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:grey;
+}
