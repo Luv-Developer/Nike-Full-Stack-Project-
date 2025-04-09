@@ -33,6 +33,9 @@ app.get("/help",(req,res)=>{
 app.get("/join",(req,res)=>{
     res.render("join")
 })
+app.get("/store",(req,res)=>{
+    res.render("store")
+})
 app.listen(PORT,()=>{
     console.log(`Server is listening at ${PORT}`)
 })

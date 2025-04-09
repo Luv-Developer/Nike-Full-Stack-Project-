@@ -1,0 +1,309 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html , body{
+    width:100%;
+    height:150%;
+    background-color:white;
+}
+#navbar{
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+#navbar img{
+    margin-left: 50px;
+    width:40px;
+    height:25px;
+    transition:0.1s;
+}
+#navbar img:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#n2{
+    margin-left: 800px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    transition:0.1s;
+}
+#n2 h5{
+    transition:0.1s;
+}
+#n2 h5:hover{
+    color:rgb(69, 69, 69);
+    transition:0.1s;
+    cursor: pointer;
+}
+#navbar2{
+    padding:10px 10px;
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+#navbar2 img{
+    margin-left: 40px;
+    margin-top: 10px;
+    width:60px;
+    height:35px;
+    transition:0.1s;
+}
+#navbar2 img:hover{
+    transition:0.1s;
+    cursor: pointer;
+
+}
+#center{
+    display: flex;
+    gap:30px;
+    margin-left:230px;
+    font-size:14px;
+}
+#center h3{
+    transition:0.1s;
+}
+#center h3:hover{
+    transition:0.1s;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#inputs{
+    margin-left: 50px;
+    width:205px;
+    height:30px;
+    background-color: rgb(233, 232, 232);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+}
+#inputs i{
+    margin-top: 5px;
+    margin-left: 8px;
+    font-size:20px;
+    padding:0px 5px;
+}
+#inputs input{
+    height:30px;
+    width:190px;
+    border:none;
+    outline: none;
+    background-color: rgb(236, 235, 235);
+    border-radius: 20px;
+    padding:10px 10px;
+    transition:0.1s;
+}
+#inputs input:hover{
+    transition:0.1s;
+    background-color: rgb(230, 227, 227);
+}
+#inputs input::placeholder{
+    color:gray;
+    font-size: 16px;
+}
+#search{
+    width:100px;
+    height:30px;
+    border:2px solid black;
+    border-radius: 50px;
+    border:transparent;
+    transition:0.1s;
+}
+#search:hover{
+    transition:0.1s;
+    cursor: pointer;
+    background-color: rgb(201, 200, 200);
+}
+#heart{
+    width:30px;
+    height:30px;
+    border-radius: 100px;
+    transition:0.1s;
+    margin-left: 10px;
+}
+#heart:hover{
+    transition:0.1s;
+    background-color: rgb(220, 218, 218);
+    cursor: pointer;
+}
+#heart i{
+    font-size:22px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+#bag{
+    width:30px;
+    height:30px;
+    border-radius: 100px;
+    transition:0.1s;
+    margin-left: -10px;
+}
+#bag:hover{
+    transition:0.1s;
+    background-color: rgb(220, 218, 218);
+    cursor: pointer;
+}
+#bag i{
+    font-size:22px;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+#join{
+    text-decoration: none;
+    color:black;
+    transition: 0.1s;
+}
+#join:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:gray
+}
+#register{
+    text-decoration: none;
+    cursor: pointer;
+    color:black;
+}
+#register:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:gray;
+}
+#center2{
+    margin-top: 10px;
+    width:100%;
+    height:600px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding:10px 10px;
+}
+#box1{
+    margin-top: 50px;
+    width:35%;
+    padding:10px 10px;
+    height:100%;
+}
+#box2{
+    width:65%;
+    height:100%;
+}
+#box1 h3{
+    font-size:23px;
+    margin-left: 10px;
+}
+#searchbar{
+    margin-left: 10px;
+    margin-top: 40px;
+    width:380px;
+    height:50px;
+    border:1px solid grey;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+#searchbar input{
+    width:80%;
+    height:100%;
+    border:transparent;
+    outline:transparent;
+    padding:10px 10px;
+    color:gray;
+    font-size:16px;
+    color:black;
+}
+#searchbar input::placeholder{
+    font-size:16px;
+}
+#searchbar i{
+    margin-left: 10px;
+    font-size:22px;
+}
+#hello{
+    border:2px solid black;
+    border:transparent;
+}
+#box1 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    color:grey;
+    font-size:15px;
+}
+#f1{
+    margin-top: 10px;
+    width:420px;
+    padding:10px 10px;
+    display: flex;
+    align-items: center;
+    gap:100px;
+    margin-bottom: 10px;
+}
+#filter{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    width:110px;
+    height:40px;
+    padding:10px 25px;
+    border:1px solid rgb(155, 155, 155);
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border-radius: 20px;
+    transition:0.1s;
+}
+#filter:hover{
+    transition:0.1s;
+    cursor: pointer;
+    border:1px solid black;
+}
+#mall1{
+    padding:10px 10px;
+    line-height: 13px;
+    width:380px;
+    height:150px;
+    margin-top: 20px;
+    transition:0.1s;
+}
+#mall1:hover{
+    transition:0.1s;
+    cursor: pointer;
+}
+#mall1 h4{
+    margin-left: 10px;
+}
+#mall1 p{
+    font-size:16px;
+    color:grey;
+}
+#mall1 p label{
+    color:rgb(236, 4, 4);
+}
+#box2{
+    background-image:url("https://www.researchgate.net/profile/P-Jops/publication/324715366/figure/fig3/AS:618748771835906@1524532611545/Map-of-Delhi-reproduced-from-Google-Maps-12.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@keyframes animatebg{
+    0%{
+        background-image: url("https://img.freepik.com/premium-photo/find-nearby-nike-stores-interactive-map-shopping-locally_1036975-161467.jpg"); 
+    }
+    25%{
+        background-image: url("https://images.news9live.com/wp-content/uploads/2024/03/Delhi-map-Google-Maps.jpg");
+    }
+    50%{
+        background-image: url("https://www.shoutlo.com/assets/images/merchant_images/maps/talli-station-pitampura-delhi.jpeg");
+    }
+    75%{
+        background-image:url("https://www.researchgate.net/profile/P-Jops/publication/324715366/figure/fig3/AS:618748771835906@1524532611545/Map-of-Delhi-reproduced-from-Google-Maps-12.png");
+    }
+    100%{
+        background-image: url("https://img.freepik.com/premium-photo/find-nearby-nike-stores-interactive-map-shopping-locally_1036975-161467.jpg"); 
+    }
+}
