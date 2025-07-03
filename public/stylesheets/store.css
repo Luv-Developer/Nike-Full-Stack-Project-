@@ -382,3 +382,13 @@ html , body{
     margin-left: 20px;
     color:rgb(97, 96, 96);
 }
+#n2 a{
+    text-decoration: none;
+    color:black;
+    transition:0.1s;
+}
+#n2 a:hover{
+    transition:0.1s;
+    color:rgb(69, 69, 69);
+    cursor: pointer;
+}

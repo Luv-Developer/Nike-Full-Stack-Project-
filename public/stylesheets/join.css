@@ -861,3 +861,12 @@ html , body{
     cursor: pointer;
     border-bottom: 3px solid gray;
 }
+#n2 a{
+    text-decoration: none;
+    color:black;
+    transition:0.1s;
+}
+#n2 a:hover{
+    transition:0.1s;
+    color: rgb(201, 200, 200);
+}
