@@ -526,3 +526,23 @@ html , body{
     cursor: pointer;
     color:grey;
 }
+#store{
+    text-decoration: none;
+    color:black;
+    transition:0.1s;
+}
+#store:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:gray;
+}
+#help{
+    text-decoration: none;
+    color:black;
+    transition:0.1s;
+}
+#help:hover{
+    transition:0.1s;
+    cursor: pointer;
+    color:gray;
+}

@@ -10,6 +10,7 @@ app.use(express.json())
 app.set("view engine","ejs")
 app.use(express.urlencoded({extended:true}))
 app.use(express.static(path.join(__dirname,"public")))
+
 app.get("/",(req,res)=>{
     res.render("homepage")
 })
@@ -17,6 +18,7 @@ app.get("/register",(req,res)=>{
     res.render("register")  
 })
 app.post("/register",async(req,res)=>{
+    
 })
 app.get("/account",(req,res)=>{
     res.render("account")
